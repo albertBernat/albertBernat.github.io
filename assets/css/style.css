@@ -868,12 +868,12 @@
 				text-transform: uppercase;
 				font-size: 1.1em;
 				outline: 0;
-				color: #FFF;
+				color: black;
 			}
 
 			#nav li.active a
 			{
-				color: #FFF;
+				color: black;
 			}
 
 			#nav > ul > li > ul
@@ -1017,3 +1017,7 @@
 			font-weight: 300;
 			color: rgba(255,255,255,.6);
 		}	
+
+#latest-posts-header {
+	font-size: medium;
+}
