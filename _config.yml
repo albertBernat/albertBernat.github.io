@@ -1,1 +1,1 @@
-theme: jekyll-theme-tactile
+permalink: /:categories/:year/:month/:day/:title

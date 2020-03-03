@@ -46,7 +46,26 @@ layout: default
 				<h2>Ostatnie wpisy:</h2>
 			</header>
 
+			<!-- {%- include latest-posts.html -%}  -->
 			<div class="row">
+				{% for post in site.posts limit: 2 %}
+					<!-- <section class="6u">
+						<a href="{{ post.url }}" class="image full"><img src="/assets/images/{{ post.img }}" alt=""></a>
+						<header>
+							<h2>{{ post.title }}</h2>
+						</header>
+						<p>{{ post.excerpt }}</p>
+					</section> -->
+					{% include post_desc.html currentPost=post %}
+				{% endfor %}
+			</div>
+			<div class="row">
+				{% for post in site.posts offset: 2 limit: 2 %}
+					{% include post_desc.html currentPost=post %}
+				{% endfor %}
+			</div>
+			
+			<!-- <div class="row">
 				<section class="6u">
 					<a href="#" class="image full"><img src="/assets/images/pic01.jpg" alt=""></a>
 					<header>
@@ -78,7 +97,7 @@ layout: default
 					</header>
 					<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
 				</section>
-			</div>
+			</div> -->
 
 		</div>
 	</div>
