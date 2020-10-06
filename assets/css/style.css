@@ -2243,5 +2243,21 @@ ul.contact li a:hover {
     font-weight: bold;
 }
 
-.post-preview {
+.tag-container {
+    display: grid;
+    grid-template-columns: 0.1fr repeat(4, 1fr);
+    grid-gap: 1.2em;
+    margin-bottom: 10px;
+}
+
+.tag {
+    border: 1px solid #777777;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.post-date {
+    font-size: 15px;
+    margin-bottom: 10px;
 }
