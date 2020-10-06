@@ -2153,7 +2153,7 @@ ul.contact li a:hover {
 }
 
 #footer header .byline {
-    color: rgba(255, 255, 255, .2);
+    color: rgb(196, 196, 196);
 }
 
 /*********************************************************************************/
@@ -2170,12 +2170,12 @@ ul.contact li a:hover {
     padding: 3em 0em;
     border-top: 1px solid;
     border-color: rgba(255, 255, 255, .05);
-    color: rgba(255, 255, 255, .1);
+    color: rgb(196, 196, 196);
 }
 
 #copyright a {
     text-decoration: none;
-    color: rgba(255, 255, 255, .2);
+    color: rgb(140, 139, 139);
 }
 
 /*********************************************************************************/
