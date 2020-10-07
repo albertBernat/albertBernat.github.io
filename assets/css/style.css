@@ -2252,3 +2252,33 @@ ul.contact li a:hover {
     font-size: 15px;
     margin-bottom: 10px;
 }
+
+#contact-form {
+    align-items: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(6,0.5fr);
+    grid-template-columns: 1fr;
+}
+
+.contact-form-item {
+    width: 50%;
+    margin: auto;
+    resize: none;
+}
+
+.contact-form-item-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-gap: 0;
+}
+
+.contact {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+button.contact-form-item {
+    cursor: pointer;
+}
