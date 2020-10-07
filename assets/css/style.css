@@ -145,10 +145,16 @@ article:last-child {
 
 .image {
     display: inline-block;
+    overflow: hidden;
+}
+
+.image img:hover {
+    transform: scale(1.2);
 }
 
 .image img {
     display: block;
+    transition: transform ease 1s;
     width: 100%;
 }
 
